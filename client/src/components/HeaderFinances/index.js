@@ -114,6 +114,7 @@ export default function HeaderFinances( { month } ) {
           // const save = res.data;
           setOpen(false);
           setData(month);
+          setFormulario('');
         });
   };
   const handleSaveUpdate = () => {
