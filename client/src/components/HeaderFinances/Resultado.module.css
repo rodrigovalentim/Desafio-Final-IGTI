@@ -1,0 +1,28 @@
+
+.lancamentos {
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.desc { 
+  flex-direction: column;
+  align-items: center;
+}
+
+.plus {
+  background: #63C43B;
+}
+
+.sub {
+  background: #FB7777;
+}
+/* #FB7777 Vermelho */
+/* #63C43B Verde */
+
+.detalhes {
+  padding-right: 10px;
+}
