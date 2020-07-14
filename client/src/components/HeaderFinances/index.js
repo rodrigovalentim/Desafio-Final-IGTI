@@ -104,6 +104,7 @@ export default function HeaderFinances( { month } ) {
   }
 
   const handleClose = () => {
+    setFormulario('');
     setOpen(false);
   };
 
