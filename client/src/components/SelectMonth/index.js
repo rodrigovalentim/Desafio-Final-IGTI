@@ -35,6 +35,13 @@ export default function SelectMonths(props) {
         <div className="input-field col s3">
           <input type="text" value={month} onChange={hangleInputChange} className="validate"/>
           <label className="active">Mes</label>
+          {/*<label>Browser Select</label>
+           <select class="browser-default">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select> */}
         </div>
         <button className="btn waves-effect waves-light" onClick={handleChangeMonthUp}>
           <i className="large material-icons">arrow_forward</i>
